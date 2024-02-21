@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+
+    <!-- NB: Replace the URL with your own snippet URL and uncomment out this line!
+    <script src="//cdn.optimizely.com/js/XXXXXXXXXX.js"></script>
+    <script src="https://cdn.optimizely.com/js/6485230001.js"></script> -->
+
+    <script src="https://optimizely-staging.s3.amazonaws.com/public/6474070907/s/custom_snippet_for_web_project.js"></script>
+
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>[DEMO] Save the Arctic Fox</title>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'>
+    <link href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='styles.css' rel='stylesheet'>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+
+        section {
+          padding: 20px;
+          color: white;
+          font-size: 16px;
+        }
+
+        div:first-child {
+            padding-left: 20px;
+        }
+
+        #section_id_1 {
+            background-color: #3498db; /* Azul */
+
+            .div_class_1 {
+                background-color: #51565a; /* Azul */
+                padding: 1px 10px;
+                margin: 10px;
+
+                .div_class_1-1 {
+                    background-color: #2ecc71; /* Azul */
+                    padding: 1px 10px;
+                    margin: 10px;
+                }
+
+                .div_class_1-2 {
+                    background-color: #444a89; /* Azul */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+
+                .div_class_1-3 {
+                    background-color: #e74c3c; /* Verde */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+
+                .div_class_1-4 {
+                    background-color: #ccc92e; /* Verde */
+                    padding: 1px 20px;
+                    margin: 10px;
+                }
+            }
+        }
+      </style>
+  </head>
+  <body class="arctic-fox">
+    <div class='container'>
+      <h1>Save the Arctic Fox</h1>
+      <img src="arctic-fox-banner.jpg" class="banner">
+      <div class="main">
+        <p>Today, there are fewer than 200 Arctic foxes in Norway Sweden, and Finland combined. </p>
+        <p>To save the Arctic foxes, we need to <strong>give them more food</strong> and <strong>control the population of red foxes.</strong></p>
+        <p>Your donation will go towards feeding the Arctic foxes in the summer and winter to make sure they are healthy enough to reproduce. </p>
+      </div>
+      <div class="sidebar">
+        <a href="#" class="button">Donate Today</a>
+      </div>
+    </div>
+    <div>
+        <h1>Dynamic Selector Tests</h1>
+        <section>
+            <section id="section_id_1" class="section_class_1">
+                <p>&lt;section id="section_id_1" class="section_class_1"&gt;</p>
+                <br/>
+                <div class="div_class_1">
+                    <p>&lt;div class="div_class_1"&gt;</p>
+                    <br/>
+                    <div class="div_class_1-1" data-test-ds="ds-value">
+                        <p>&lt;div class="div_class_1-1" data-test-ds="ds-value"&gt;</p>
+                        <br/>
+                        <div>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;</p>
+                        </div>
+                    </div>
+                    <div class="div_class_1-2" data-test-ds="ds-value-2">
+                        <p>&lt;div class="div_class_1-2" data-test-ds="ds-value-2"&gt;</p>
+                    </div>
+                    <div class="div_class_1-3" data-test-ds="ds-value" data-test-another="another-value">
+                        <p>&lt;div class="div_class_1-3" data-test-ds="ds-value" data-test-another="another-value"&gt;</p>
+                    </div>
+                    <div class="div_class_1-1 div_class_1-2 div_class_1-3 div_class_1-4">
+                        <p>&lt;div class="div_class_1-1 div_class_1-2 div_class_1-3 div_class_1-4"&gt;</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div>
+            div1
+            <div>
+                div1-1
+                <div>div1-1-1</div>
+            </div>
+        </div>
+        <br/>
+        <div>
+            div2
+            <div>
+                div2-1
+                <div>div2-1-1</div>
+            </div>
+        </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
+</html>
